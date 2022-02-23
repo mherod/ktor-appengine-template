@@ -1,19 +1,3 @@
-buildscript {
-    repositories {
-        mavenLocal()
-        maven("https://oss.sonatype.org/content/repositories/snapshots")
-    }
-
-    repositories {
-        mavenCentral()
-        google()
-    }
-
-    dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
-    }
-}
-
 plugins {
     id("com.google.cloud.tools.appengine").version("2.4.2")
     id("com.github.johnrengelman.shadow").version("7.0.0")
